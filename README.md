@@ -1,2 +1,0 @@
-# design
-UX/UI Design
