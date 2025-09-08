@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krati Sharma - Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: white;
+            color: #333;
+            line-height: 1.4;
+            font-size: 11px;
+        }
+        
+        .resume-container {
+            max-width: 8.5in;
+            min-height: 11in;
+            margin: 0 auto;
+            background: white;
+            padding: 0.6in;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 15px;
+        }
+        
+        .name {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+        
+        .contact-info {
+            font-size: 10px;
+            color: #666;
+            line-height: 1.3;
+        }
+        
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 3px;
+        }
+        
+        .summary {
+            font-size: 11px;
+            line-height: 1.5;
+            color: #444;
+            margin-bottom: 3px;
+        }
+        
+        .job {
+            margin-bottom: 15px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 3px;
+        }
+        
+        .job-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .company-name {
+            font-size: 11px;
+            font-weight: 700;
+            color: #555;
+            margin-top: 2px;
+        }
+        
+        .job-date {
+            font-size: 10px;
+            color: #777;
+            font-weight: 500;
+        }
+        
+        .job-details {
+            margin-top: 5px;
+        }
+        
+        .job-details ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .job-details li {
+            position: relative;
+            padding-left: 12px;
+            margin-bottom: 4px;
+            font-size: 10.5px;
+            line-height: 1.4;
+            color: #444;
+        }
+        
+        .job-details li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-weight: 600;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 8px 15px;
+            font-size: 10.5px;
+        }
+        
+        .skill-category {
+            font-weight: 600;
+            color: #2c3e50;
+            white-space: nowrap;
+        }
+        
+        .skill-list {
+            color: #444;
+            line-height: 1.3;
+        }
+        
+        .project {
+            margin-bottom: 10px;
+        }
+        
+        .project-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 3px;
+        }
+        
+        .project-description {
+            font-size: 10.5px;
+            line-height: 1.4;
+            color: #444;
+        }
+        
+        .education-item {
+            font-size: 11px;
+            color: #444;
+            line-height: 1.3;
+        }
+        
+        .certification {
+            font-size: 11px;
+            color: #444;
+            line-height: 1.3;
+        }
+        
+        .highlight {
+            font-weight: 700;
+            color: #333;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .resume-container {
+                box-shadow: none;
+                padding: 0.5in;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <div class="name">Krati Sharma | Product Designer</div>
+            <div class="contact-info">
+             💼 <a href="#">LinkedIn</a> · 🌐 <a href="#">Portfolio</a> · 🔗 <a href="#">Github</a> · ✉ <a href="mailto:">Email</a> · 📞 +91 9509983288
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <div class="summary">
+                Product-focused UX Designer with 2+ years' experience | Bridging user needs, business goals & technology.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Work Experience</div>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">UX Designer</div>
+                        <div class="company-name">Andor Communications Pvt. Ltd.</div>
+                    </div>
+                    <div class="job-date">Nov 2023 — Present</div>
+                </div>
+                <div class="job-details">
+                    <ul>
+                        <li>Optimized homepage user experience through data analysis and user research, achieving <span class="highlight">3× increase in tool engagement</span>.</li>
+                        <li>Led UX revamps and analyzed user behavior data through conversion funnels to decrease drop-off rates of existing features, resulting in <span class="highlight">12% increase in revenue</span> from existing tools.</li>
+                        <li>Collaborated with product, business and engineering teams to streamline design-to-development handoff processes and ensure alignment on project goals.</li>
+                        <li>Handled UX and UI of 4 products, ensuring consistent voice and improved user guidance across the platform.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">UX/UI Designer</div>
+                        <div class="company-name">Surepass Technologies Pvt. Ltd.</div>
+                    </div>
+                    <div class="job-date">Jan 2023 — Jun 2023</div>
+                </div>
+                <div class="job-details">
+                    <ul>
+                        <li>Designed mobile and web interfaces for Kwint and SureWallet financial platforms, improving user onboarding experience.</li>
+                        <li>Created comprehensive marketing asset library including promotional videos, graphics and brand guidelines for customer acquisition campaigns.</li>
+                        <li>Established design system with reusable components to maintain visual consistency and accelerate product development cycles.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category">Design</div>
+                <div class="skill-list">Wireframing, Prototyping, Interaction Design, Visual Design, UX Writing</div>
+                
+                <div class="skill-category">Research</div>
+                <div class="skill-list">Usability Testing, UX Audits, Surveys, Competitive Analysis</div>
+                
+                <div class="skill-category">Product</div>
+                <div class="skill-list">Data-driven Design, KPI Alignment, Feature Adoption Strategy</div>
+                
+                <div class="skill-category">Tools</div>
+                <div class="skill-list">Figma, Adobe XD, Photoshop, Illustrator, Notion, Jira</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Projects</div>
+            <div class="project">
+                <div class="project-title">Boosting Tool Engagement 3× with Data-Driven UX Decisions — <a href="#" style="color: #3498db;">Case Study Link</a></div>
+                <div class="project-description">
+                    Led homepage redesign improving tool discoverability through simplified navigation and intuitive layout. Results: 3× tool engagement, +16% event count.
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">Lab Test Booking UI (Mobile + Desktop) — <a href="https://www.figma.com/design/OXvoknQypj9EgfuvKBBkQJ/Untitled?node-id=4-3131&p=f&t=kN9sHQCUZ3W7V4wX-0" style="color: #3498db;">Figma Link</a></div>
+                <div class="project-description">
+                    Personal project creating comprehensive design system and interactive prototyping for lab test booking platform across mobile and desktop interfaces.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <strong>2019 — 2023</strong> · Bachelors in Communication Design, Banasthali University (GPA: 8.2)
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Certifications</div>
+            <div class="certification">
+                Google UX Design Certificate (2022)
+            </div>
+            <div style="margin-top: 15px; text-align: right; font-size: 9px; color: #888;">
+                Last updated: 25 August 2025
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Print functionality
+        window.addEventListener('load', function() {
+            // Auto-print when page loads (optional)
+            // window.print();
+        });
+    </script>
+</body>
+</html>
